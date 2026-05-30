@@ -26,12 +26,12 @@ export default function NavBar() {
                     <ul
                         tabIndex={-1}
                         className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-auto p-2 shadow right-3">
-                        <li><a className='whitespace-nowrap'>Home</a></li>
-                        <li><a className='whitespace-nowrap'>FAQ</a></li>
-                        <li><a className='whitespace-nowrap'>Pricing</a></li>
-                        <li><a className='whitespace-nowrap'>Code of Conduct</a></li>
-                        <li><a className='whitespace-nowrap'>Contact</a></li>
-                        <li><a className='whitespace-nowrap'>Login</a></li>
+                        <li><a className='whitespace-nowrap' href='/'>Home</a></li>
+                        <li><a className='whitespace-nowrap' href='/faq'>FAQ</a></li>
+                        <li><a className='whitespace-nowrap' href='/pricing'>Pricing</a></li>
+                        <li><a className='whitespace-nowrap' href='/code-of-conduct'>Code of Conduct</a></li>
+                        <li><a className='whitespace-nowrap' href='/contact'>Contact</a></li>
+                        <li><a className='whitespace-nowrap' href='https://reg.ainmhicon.ie'>Login</a></li>
                     </ul>
                 </div>
             </div>

@@ -14,8 +14,8 @@ export default function Pricing() {
                     </div>
                 </article>
                 <div className="divider w-[50%] mx-auto"></div>
-                <article className='m-auto px-3 m-w-full group'>
-                    <div className='flex flex-row justify-center items-center gap-6 my-8'>
+                <article className='m-auto px-3 m-w-full group py-10'>
+                    <div className='flex flex-row justify-center items-center gap-6 mb-8'>
                         <h3 className='flex-1 text-2xl  text-right'>Day Pass</h3>
                         <input type="checkbox" defaultChecked className="toggle toggle-success" />
                         <h3 className='flex-1 text-2xl text-left'>Full Weekend</h3>
@@ -130,7 +130,7 @@ export default function Pricing() {
                     </div>
                 </article>
                 <div className="divider w-[50%] mx-auto"></div>
-                <article >
+                <article className='py-10'>
                     <div className='prose prose-lg mx-auto my-8'>
                         <h2>Hotel and Accommodation</h2></div>
                     <div className="card bg-base-200 card-lg shadow-sm w-fit  lg:card-side m-auto">

@@ -2,7 +2,7 @@ import LinkButton from "./link-button";
 
 export default function NavBar() {
     return (
-        <nav className='navbar w-full h-25 flex flex-row px-10 bg-base-100 justify-between shadow-sm'>
+        <nav className='navbar w-full h-25 flex flex-row px-2 bg-base-100 justify-between shadow-sm md:px-10'>
 
             <div className="navbar-start h-full w-auto">
                 <a href='/' className='mr-auto shrink-0  h-full' >
@@ -25,7 +25,7 @@ export default function NavBar() {
                     </div>
                     <ul
                         tabIndex={-1}
-                        className="menu menu-sm dropdown-content bg-base-200 rounded-box z-1 mt-3 w-auto p-2 shadow right-3">
+                        className="menu menu-lg dropdown-content bg-base-200 rounded-box z-1 mt-3 w-auto p-2 shadow-lg right-3">
                         <li><a className='whitespace-nowrap' href='/'>Home</a></li>
                         <li><a className='whitespace-nowrap' href='/faq'>FAQ</a></li>
                         <li><a className='whitespace-nowrap' href='/pricing'>Pricing</a></li>

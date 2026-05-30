@@ -2,7 +2,7 @@ import LinkButton from "./link-button";
 
 export default function NavBar() {
     return (
-        <nav className='navbar w-full h-25 flex flex-row px-10 bg-base-100 justify-between'>
+        <nav className='navbar w-full h-25 flex flex-row px-10 bg-base-100 justify-between shadow-sm'>
 
             <div className="navbar-start h-full w-auto">
                 <a href='/' className='mr-auto shrink-0  h-full' >

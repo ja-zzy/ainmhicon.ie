@@ -20,7 +20,7 @@ export default function Home() {
         </article>
       </div>
 
-      <div className="card bg-base-300 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side my-20">
+      <div className="card bg-base-200 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side my-20">
 
         <figure className="min-w-[50%] block lg:hidden">
           <img src='/game.gif' />

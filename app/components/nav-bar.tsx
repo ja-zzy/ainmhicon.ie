@@ -15,6 +15,7 @@ export default function NavBar() {
                     <LinkButton href='/faq'>FAQ</LinkButton>
                     <LinkButton href='/pricing'>Pricing</LinkButton>
                     <LinkButton href='/code-of-conduct'>Code of Conduct</LinkButton>
+                    <LinkButton href='/dealers-den'>Dealer's Den</LinkButton>
                     <LinkButton href='/contact'>Contact</LinkButton>
                     <LinkButton href='https://reg.ainmhicon.ie'>Login</LinkButton>
                 </div>

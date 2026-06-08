@@ -1,12 +1,12 @@
 'use client'
 
-import { useState } from "react";
+import { SubmitEventHandler, useState } from "react";
 
 export default function ContactPage() {
     const [formError, setFormError] = useState<boolean>(false);
     const [formSuccess, setFormSuccess] = useState<boolean>(false);
 
-    const onSubmit = async (event) => {
+    const onSubmit: SubmitEventHandler<HTMLFormElement> = async (event) => {
         event.preventDefault();
 
         const formData = new FormData(event.target);
@@ -32,7 +32,6 @@ export default function ContactPage() {
             <span className="pt-2 text-gray-500 w-110 text-center">Fill out the form below and one of our staff will get back to you as soon as possible!</span>
 
             <form onSubmit={onSubmit}>
-                <input type="hidden" name="redirect" value="http://localhost:3000/contact"></input>
                 <div className="mb-5 w-150 pt-10">
                     <label htmlFor="name" className="mb-3 block text-base font-medium text-black justify-self-center">Full Name</label>
                     <input type="text" placeholder="Your name" name="name"
@@ -61,7 +60,6 @@ export default function ContactPage() {
                 {formSuccess && <span><strong className="text-emerald-700">Message has been sent successfully! We will get back to you as soon as possible</strong></span>}
                 {formError && <span><strong className="text-red-700">Something went wrong... Please try again later or email us directly via mail@ainmhicon.ie</strong></span>}
             </div>
-            
             <span className="pt-16">You can also contact us directly at <a href="mailto:mail@ainmhicon.ie" className="underline text-blue-800">mail@ainmhicon.ie</a></span>
         </div>
     );

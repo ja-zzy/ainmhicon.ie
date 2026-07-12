@@ -3,7 +3,7 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.png' className='w-full min-h-[40vh] max-h-[60vh] object-contain' />
+      <img src='/roots.png' className='w-full min-h-[40vh] max-h-[60vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 text-center">
           <h1>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h1>
@@ -19,7 +19,7 @@ export default function Home() {
         </article>
       </div>
 
-      <div className="card bg-base-200 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side my-20">
+      <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw]  max-w-275 lg:card-side my-20">
 
         <figure className="min-w-[50%] block lg:hidden">
           <img src='/game.gif' />

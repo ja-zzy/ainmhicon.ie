@@ -2,9 +2,9 @@ export default function CodeOfConduct() {
     return (
         <article className="flex flex-col flex-1 items-center prose prose-xl m-auto">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center">Ainmhícon Code of Conduct</h1>
+                <h1 className="m-auto py-10 pb-0 md:pb-10 text-center">Ainmhícon Code of Conduct</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side">
+            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body py-12">
                     <div className="flex flex-col flex-1">
                         <h2 className="text-2xl mt-0 ">Preamble</h2>

@@ -30,9 +30,9 @@ export default function ContactPage() {
 
         <article className="flex flex-col flex-1 items-center prose prose-xl m-auto">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center">Get In Touch</h1>
+                <h1 className="m-auto py-10 pb-0 md:pb-10 text-center">Get In Touch</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side padding flex flex-col p-8">
+            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side padding flex flex-col p-8">
                 <span className="pt-6 text-center">Fill out the form below and one of our staff will get back to you as soon as possible! <br/>If you prefer, you can also contact us directly at <a href="mailto:mail@ainmhicon.ie" className="underline">mail@ainmhicon.ie</a></span>
                 <form onSubmit={onSubmit}>
                     <div className="mb-5 pt-10">

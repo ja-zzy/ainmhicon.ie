@@ -1,10 +1,10 @@
 export default function Pricing() {
     return (
         <div className="flex flex-col flex-1 items-center">
-            <div className="w-full bg-base-100 px-5  text-center">
+            <div className="w-full bg-base-100 text-center">
                 <article className=" prose prose-xl m-auto py-10">
-                    <h1 className="text-4xl md:text-5xl">Registration & Pricing</h1>
-                    <div className="card bg-base-200 card-lg shadow-sm">
+                    <h1>Registration & Pricing</h1>
+                    <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] m-auto">
                         <div className="card-body">
                             <p>
                                 Registration for Dealers Den opens on Tuesday 1st of July 10am and closes Tuesday 18th of July. We hope to have results of the den, as well as waiting list emails sent out by Wednesday the 30th of July.Registration for Standard, Sponsor and Founder tickets open Monday 25th of August at 6pm Irish Standard Time. All ticket prices are non residential. This means that it does not include a hotel stay. To book the Clayton Hotel, we have a special discount code that will be made available to you once you have completed registration payment. A €10 Early Bird discount will be available for tickets bought between August 25th to October 4th. Standard price applies from October 5th to January 4th. A €10 late fee will be applied from January 5th to February 28th.
@@ -133,7 +133,7 @@ export default function Pricing() {
                 <article className='py-10'>
                     <div className='prose prose-lg mx-auto my-8'>
                         <h2>Hotel and Accommodation</h2></div>
-                    <div className="card bg-base-200 card-lg shadow-sm w-fit  lg:card-side m-auto">
+                    <div className="card bg-base-200 card-lg shadow-sm lg:card-side  w-[90vw] md:w-[70vw] m-auto">
 
                         <div className="card-body prose prose-lg">
                             <p>Need a place to stay during the convention? Then our venue, <a href='https://www.claytonhotels.com/liffey-valley/'>Clayton Hotel Liffey Valley</a>, is the place to stay! For the 2<sup>nd</sup> - 4<sup>th</sup> of April 2027 they are providing reduced prices for con goers. The hotel sports a 20m Pool & Club Vitae Leisure Centre, 349 Rooms & Suites (including accessible rooms on request) and parking available at €6 per night.The hotel has a large car park. The overnight charge is €10 per vehicle, hours 0-2 are free and after 2 hours it is €3.00 per hour. The discount code for the hotel will be provided after registration payment is completed.</p>

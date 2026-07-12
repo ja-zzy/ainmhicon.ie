@@ -3,14 +3,13 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/hero.webp' className='w-full min-h-[40vh] max-h-[60vh] object-cover' />
+      <img src='/roots.png' className='w-full min-h-[40vh] max-h-[60vh] object-contain' />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 text-center">
-          <h1>Ainmhícon 2027</h1>
-          <div className="divider divider-success"></div>
-          <p>Ainmhícon is excited to welcome you back to it's second year in Clayton Hotel Liffey Valley.</p>
+          <h1>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h1>
+          <p>Ainmhícon is thrilled to welcome you back to for it's second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
           <div className="divider w-[50%] mx-auto"></div>
-          <LinkButton href='/events' size='xl'>View Events Timetable</LinkButton>
+          <p>Events schedule coming soon!</p>
           <div className="divider w-[50%] mx-auto"></div>
           <p>Dealer's Den Applications will open soon!</p>
           <div className="divider w-[50%] mx-auto"></div>
@@ -27,8 +26,9 @@ export default function Home() {
         </figure>
         <div className="card-body prose prose-lg">
           <h2 className="card-title">What is Ainmhícon?</h2>
-          <p>Ainmhícon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention", is a brand new furry convention taking place in Dublin, Ireland. Its main role is to have an easily accessible furry convention for people not just in Ireland, but all over Europe and the rest of the world!
-            Ainmhícon will have its first year in April 2026, and if the turnout is great, will become a yearly event.</p>
+          <p>Ainmhícon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention". <br/><br/>
+          Last year Craic & Ceòl were let loose on Dublin as we opened our doors for the first time. With over 300 attendees we had a great
+          first year, so great in fact that we've decided to do it all again in 2027!</p>
 
         </div>
         <figure className="min-w-[50%] hidden lg:block">

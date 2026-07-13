@@ -2,7 +2,7 @@ export default function Faq() {
     return (
         <div className="flex flex-col flex-1 items-center">
             <div className="w-full bg-base-100 px-5">
-                <article className="prose prose-xl m-auto py-10 text-center">
+                <article className="prose prose-xl m-auto py-10 text-center text-neutral-content">
                     <h1>FAQ</h1>
                     <h2>Registration</h2>
 
@@ -10,7 +10,7 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" defaultChecked />
                             <div className="collapse-title font-semibold text-left">Where do I register?</div>
-                            <div className="collapse-content text-sm">You can register online at <a href='https://reg.ainmhicon.ie'>reg.ainmhicon.ie</a>. On-site registration may not be available due to demand, so we recommend registering early to secure your spot. </div>
+                            <div className="collapse-content text-sm">You can register online at <a href='https://reg.ainmhicon.ie' className='text-neutral-content'>reg.ainmhicon.ie</a>. On-site registration may not be available due to demand, so we recommend registering early to secure your spot. </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
@@ -30,7 +30,7 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">How is my data handled?</div>
-                            <div className="collapse-content text-sm">We handle your data in line with GDPR. For more info please see our <a href='/privacy-policy'>Privacy Policy</a></div>
+                            <div className="collapse-content text-sm">We handle your data in line with GDPR. For more info please see our <a href='/privacy-policy' className='text-neutral-content'>Privacy Policy</a></div>
                         </div>
                     </div>
 
@@ -45,7 +45,7 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">What proof will be needed?</div>
-                            <div className="collapse-content text-sm">Please refer to our <a href='code-of-conduct'>Code of Conduct</a> for acceptable forms of ID. If you are unsure about your form of identification, please email <a href='mainto:conops@ainmhicon.ie'>conops@ainmhicon.ie</a> </div>
+                            <div className="collapse-content text-sm">Please refer to our <a href='code-of-conduct' className='text-neutral-content'>Code of Conduct</a> for acceptable forms of ID. If you are unsure about your form of identification, please email <a href='mailto:conops@ainmhicon.ie' className='text-neutral-content'>conops@ainmhicon.ie</a> </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
@@ -66,17 +66,17 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Can I upgrade my ticket?</div>
-                            <div className="collapse-content text-sm">Yes, if you have paid for a ticket and wish to upgrade it, you can get in contact with <a href='mainto:reg@ainmhicon.ie'>reg@ainmhicon.ie</a> </div>
+                            <div className="collapse-content text-sm">Yes, if you have paid for a ticket and wish to upgrade it, you can get in contact with <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a> </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Can I cancel my registration payment?</div>
-                            <div className="collapse-content text-sm">You can request a cancellation before 30th November 2025 via <a href='mainto:reg@ainmhicon.ie'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you. </div>
+                            <div className="collapse-content text-sm">You can request a cancellation before 30th November 2026 via <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you. </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Registration is closed, can I still edit my registration info?</div>
-                            <div className="collapse-content text-sm">After the registration closing date has passed, no changes can be made to your information, except potentially in exceptional circumstances. Please contact  <a href='mainto:reg@ainmhicon.ie'>reg@ainmhicon.ie</a> in the event you require assistance.  </div>
+                            <div className="collapse-content text-sm">After the registration closing date has passed, no changes can be made to your information, except potentially in exceptional circumstances. Please contact  <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a> in the event you require assistance.  </div>
                         </div>
                     </div>
                 </article>

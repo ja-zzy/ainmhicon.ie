@@ -4,7 +4,7 @@ export default function DealersDen() {
             <div className="w-full bg-base-100">
                 <h1 className="m-auto py-10 text-center">Dealer's Den 2027 Information</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[70vw] max-w-275 lg:card-side">
+            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body py-12">
                     <h2 className="text-4xl mt-0">General Information</h2>
                     <p >The Dealer's Den is the convention's marketplace, hosting a variety of

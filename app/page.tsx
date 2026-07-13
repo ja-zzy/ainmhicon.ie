@@ -3,9 +3,9 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.png' className='w-full min-h-[40vh] max-h-[60vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
+      <img src='/roots.webp' className='w-full min-h-[30vh] max-h-[50vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
       <div className="w-full bg-base-100">
-        <article className="prose prose-xl m-auto py-10 text-center">
+        <article className="prose prose-xl m-auto py-10 px-4 text-center">
           <h1>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h1>
           <p>Ainmhícon is thrilled to welcome you back to for it's second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
           <div className="divider w-[50%] mx-auto"></div>

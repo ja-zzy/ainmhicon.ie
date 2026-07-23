@@ -20,10 +20,10 @@ export default function Pricing() {
                     <div className="card bg-base-200 card-lg shadow-sm lg:card-side m-auto">
 
                         <div className="card-body shrink">
-                            <p>Need a place to stay during the convention? Then our venue, <a href='https://www.claytonhotels.com/liffey-valley/'>Clayton Hotel Liffey Valley</a>, is the place to stay! For the 2<sup>nd</sup> - 4<sup>th</sup> of April 2027 they are providing reduced prices for con goers. The hotel sports a 20m Pool & Club Vitae Leisure Centre, 349 Rooms & Suites (including accessible rooms on request) and parking available at €6 per night.The hotel has a large car park. The overnight charge is €10 per vehicle, hours 0-2 are free and after 2 hours it is €3.00 per hour. The discount code for the hotel will be provided after registration payment is completed.</p>
+                            <p>If you need a place to stay during the convention then our venue, <a href='https://www.claytonhotels.com/liffey-valley/'>Clayton Hotel Liffey Valley</a>, is the place to be! For the 2<sup>nd</sup> - 4<sup>th</sup> of April 2027 they are providing reduced prices for con goers. The hotel sports a 20m Pool & Club Vitae Leisure Centre, 349 Rooms & Suites (including accessible rooms on request) and parking available at €6 per night.The hotel has a large car park. The overnight charge is €10 per vehicle, hours 0-2 are free and after 2 hours it is €3 per hour. The discount code for the hotel will be provided after registration payment is completed.</p>
 
                         </div>
-                        <figure className="hidden lg:block h-87.5 shrink-0">
+                        <figure className="hidden lg:block h-87.5 shrink-0 max-w-62 h-full">
                             <img src='/hotel.webp' />
                         </figure>
                     </div>

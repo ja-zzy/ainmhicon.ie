@@ -3,7 +3,7 @@ export default function Faq() {
         <div className="flex flex-col flex-1 items-center">
             <div className="w-full bg-base-100 px-5">
                 <article className="prose prose-xl m-auto py-10 text-center text-neutral-content">
-                    <h1>FAQ</h1>
+                    <h1 className="text-5xl sm:text-[2.8em]">FAQ</h1>
                     <h2>Registration</h2>
 
                     <div className="join join-vertical bg-accent overflow-hidden radius rounded-4xl w-full shadow-2xl">

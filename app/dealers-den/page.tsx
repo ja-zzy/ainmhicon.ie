@@ -2,7 +2,7 @@ export default function DealersDen() {
     return (
         <article className="flex flex-col flex-1 items-center prose prose-xl m-auto">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center">Dealer's Den 2027 Information</h1>
+                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]">Dealer's Den 2027 Information</h1>
             </div>
             <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body py-12">
@@ -146,7 +146,7 @@ export default function DealersDen() {
                             </li>
                             <li>
                                 Gambling is not permitted within the Dealers’ Den. However Loot/Mystery Boxes are allowed, but must follow the guidelines as shown on
-                                <a href='https://www.citizensinformation.ie/en/justice/civil-law/the-law-on-gambling-in-ireland/'> https://www.citizensinformation.ie/en/justice/civil-law/the-law-on-gambling-in-ireland/</a>
+                                <a className='wrap-anywhere' href='https://www.citizensinformation.ie/en/justice/civil-law/the-law-on-gambling-in-ireland/'> https://www.citizensinformation.ie/en/justice/civil-law/the-law-on-gambling-in-ireland/</a>
                             </li>
                             <li>
                                 Food and beverages must not be sold within the Dealers’ Den.

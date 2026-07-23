@@ -3,7 +3,7 @@ export default function Pricing() {
         <div className="flex flex-col flex-1 items-center">
             <div className="w-full bg-base-100 text-center">
                 <article className=" prose prose-xl m-auto py-10 w-[90vw] md:w-[70vw]  max-w-205">
-                    <h1>Registration & Pricing</h1>
+                    <h1 className="text-5xl sm:text-[2.8em]">Registration & Pricing</h1>
                     <div className="card bg-base-200 card-lg shadow-sm m-auto">
                         <div className="card-body">
                             <p>

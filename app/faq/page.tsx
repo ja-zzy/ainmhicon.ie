@@ -14,11 +14,6 @@ export default function Faq() {
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
-                            <div className="collapse-title font-semibold text-left">Will the ticket prices change?</div>
-                            <div className="collapse-content text-sm">A €10 Early Bird discount will be available for tickets bought between August 25th to October 4th. Standard price applies from October 5th to January 4th. A €10 late fee will be applied from January 5th to February 28th. </div>
-                        </div>
-                        <div className="collapse collapse-arrow join-item border-base-300 border">
-                            <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Where do I get a registration number?</div>
                             <div className="collapse-content text-sm">You’ll receive your registration number on our registration website after your payment has been processed. You may be asked for this number during check-in or pre-event communications. </div>
                         </div>
@@ -71,7 +66,7 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Can I cancel my registration payment?</div>
-                            <div className="collapse-content text-sm">You can request a cancellation before 30th November 2026 via <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you. </div>
+                            <div className="collapse-content text-sm">You can request a cancellation up to 14 days after purchase by contacting <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you.</div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />

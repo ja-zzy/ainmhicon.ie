@@ -22,7 +22,7 @@ export default function DealersDen() {
 
 
 
-                    <h2>How do I apply to be a dealer?</h2>
+                    <h2 id='applications'>How do I apply to be a dealer?</h2>
 
                     <p>You’ll be able to apply to our Dealers’ Den on August 3rd at 6PM. We will announce the Dealers’ Den applications opening via our social media and channels. </p>
                     <p>This year we are opening Dealers' Den applications before general convention tickets can be purchased, and you will be notified before payment is required if you are successful in your Den application. </p>

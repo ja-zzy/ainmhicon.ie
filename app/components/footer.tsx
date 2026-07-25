@@ -11,6 +11,7 @@ export default function Footer() {
                 <a href='/faq'>FAQ</a>
                 <a href='/pricing'>Pricing</a>
                 <a href='/code-of-conduct'>Code of Conduct</a>
+                <a href='/dealers-den'>Dealer's Den</a>
                 <a href='/contact'>Contact</a>
             </nav>
             <section className='prose prose-sm flex flex-col items-center justify-center '>

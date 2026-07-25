@@ -3,7 +3,7 @@ export default function Faq() {
         <div className="flex flex-col flex-1 items-center">
             <div className="w-full bg-base-100 px-5">
                 <article className="prose prose-xl m-auto py-10 text-center text-neutral-content">
-                    <h1>FAQ</h1>
+                    <h1 className="text-5xl sm:text-[2.8em]">FAQ</h1>
                     <h2>Registration</h2>
 
                     <div className="join join-vertical bg-accent overflow-hidden radius rounded-4xl w-full shadow-2xl">
@@ -11,11 +11,6 @@ export default function Faq() {
                             <input type="radio" name="my-accordion-4" defaultChecked />
                             <div className="collapse-title font-semibold text-left">Where do I register?</div>
                             <div className="collapse-content text-sm">You can register online at <a href='https://reg.ainmhicon.ie' className='text-neutral-content'>reg.ainmhicon.ie</a>. On-site registration may not be available due to demand, so we recommend registering early to secure your spot. </div>
-                        </div>
-                        <div className="collapse collapse-arrow join-item border-base-300 border">
-                            <input type="radio" name="my-accordion-4" />
-                            <div className="collapse-title font-semibold text-left">Will the ticket prices change?</div>
-                            <div className="collapse-content text-sm">A €10 Early Bird discount will be available for tickets bought between August 25th to October 4th. Standard price applies from October 5th to January 4th. A €10 late fee will be applied from January 5th to February 28th. </div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
@@ -71,7 +66,7 @@ export default function Faq() {
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Can I cancel my registration payment?</div>
-                            <div className="collapse-content text-sm">You can request a cancellation before 30th November 2026 via <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you. </div>
+                            <div className="collapse-content text-sm">You can request a cancellation up to 14 days after purchase by contacting <a href='mailto:reg@ainmhicon.ie' className='text-neutral-content'>reg@ainmhicon.ie</a>. If you request a refund outside of this time period, we may be unable to refund you.</div>
                         </div>
                         <div className="collapse collapse-arrow join-item border-base-300 border">
                             <input type="radio" name="my-accordion-4" />

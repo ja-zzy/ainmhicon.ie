@@ -31,6 +31,7 @@ export default function NavBar() {
                         <li><a className='whitespace-nowrap' href='/faq'>FAQ</a></li>
                         <li><a className='whitespace-nowrap' href='/pricing'>Pricing</a></li>
                         <li><a className='whitespace-nowrap' href='/code-of-conduct'>Code of Conduct</a></li>
+                        <li><a className='whitespace-nowrap' href='/dealers-den'>Dealer's Den</a></li>
                         <li><a className='whitespace-nowrap' href='/contact'>Contact</a></li>
                         <li><a className='whitespace-nowrap' href='https://reg.ainmhicon.ie'>Login</a></li>
                     </ul>

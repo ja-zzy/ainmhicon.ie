@@ -17,7 +17,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Ainmhícon 2027",
-  description: "Ainmhícon 2027 is a new Furry Convention, HERE in the wonderful Emerald Isle of Ireland. April 11th-12th 2026 in Clayton Hotel Liffey Valley.",
+  description: "Ainmhícon is BACK! Join us for another amazing furry convention in the wonderful Emerald Isle of Ireland! April 2nd-4th in the Clayton Hotel, Liffey Valley.",
 };
 
 export default function RootLayout({

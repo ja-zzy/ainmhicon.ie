@@ -1,146 +1,63 @@
 export default function DealersDen() {
     return (
-        <article className="flex flex-col flex-1 items-center prose prose-xl m-auto">
+        <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center">Dealer's Den 2027 Information</h1>
+                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]">Dealer's Den 2027 Information</h1>
             </div>
             <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
-                <div className="card-body py-12">
-                    <h2 className="text-4xl mt-0">General Information</h2>
-                    <p >The Dealer's Den is the convention's marketplace, hosting a variety of
-                        dealers for you to hopefully find something awesome!</p>
+                <div className="card-body">
+                    <h2 className='mt-0'>General Information</h2>
+                    <p>The Dealers’ Den is the convention's marketplace, hosting a variety of dealers for you to hopefully find something awesome!</p>
 
-                    <h3 className="mt-4">Visiting the Dealer's Den</h3>
-                    <p >The Dealer's Den will be open to attendees on Saturday. Check the con
-                        schedule for exact timings.</p>
+                    <p>You will find a range of furry fandom dealers selling a variety of different furry merchandise as well as a table for our chosen charity with their own items for sale.</p>
 
-                    <h3 className="mt-4">Rules</h3>
-                    <ul className="list-disc list-inside  my-0">
-                        <li>
-                            Food and drink will not be allowed in the Den, except if it belongs to dealers or
-                            their assistants.
-                        </li>
-                        <li>
-                            The doors will be manned at all times, during opening hours, by a member of the
-                            Dealer's Den and Security team.
-                        </li>
-                        <li>
-                            Dealers are responsible for keeping their stock and valuables secure.
-                            The convention accepts no liability for any loss/theft/damage unless caused by our
-                            own negligence
-                        </li>
-                        <li>
-                            Photography is not permitted in the Dealer's Dan.
-                        </li>
-                        <li>
-                            Wearing Fursuits or any parts is not permitted in the Dealer's Den this includes any
-                            item of clothing that could cause damage, due to safety concerns.
-                        </li>
-                        <li>
-                            For more guidance on the rules, please check out the Dealer's Den <a className="underline"
-                                href="https://docs.google.com/document/d/1aiUlJ3BbRYi-h1JRjKacowwRq5Bj3kyKZ0A0XAkuHRM/edit?usp=sharing">
-                                Terms and Conditions</a>.
-                        </li>
-                    </ul>
+                    <h2>Visiting the Dealers’ Den</h2>
+                    <p>The Dealers' Den will be open to attendees on Saturday and Sunday. There will be different dealers each day to allow for a greater range of dealers to vend. Check the con schedule for exact timings. Saturday will be open from late morning to late afternoon whereas Sunday will be open from mid morning to mid afternoon (exact times to be confirmed later)</p>
 
-                    <h3 className="mt-4">Dealing in the Dealer's Den</h3>
-                    <p>How do I apply to be a dealer?</p>
-                    <ol className="list-decimal list-inside  my-0">
-                        <li>
-                            Read the Terms and Conditions of the Dealer's Den and the Convention's weapons policy.
-                            You will be asked to sign a form agreeing to abide by these terms at the con when you
-                            sign in for your table.
-                        </li>
-                        <li>
-                            You must be a fully paid attendee to be approved for a table in the Dealer's Den:
-                            <ul className="list-disc list-inside  my-0">
-                                <li>
-                                    Registering for a table does not guarantee you a table.
-                                </li>
-                                <li>
-                                    Payment for your table is once the Dealer's Den opens for setup.
-                                </li>
-                                <li>
-                                    If you cancel your table, it will be offered to the next person on the list.
-                                    You will not be able to sell it on.
-                                </li>
-                            </ul>
-                        </li>
-                        <li>
-                            We will review the table request, and contact you if additional information is required,
-                            or if your preferred table is unavailable.
-                        </li>
-                        <li>
-                            If your preferred table is unavailable, we will offer you an alternative or the option to
-                            go on the waiting list.
-                        </li>
-                        <li>
-                            Once your attendance has been confirmed and paid, you will receive an email about any
-                            addition payments for your table.
-                        </li>
-                    </ol>
+                    <h2>Dealers’ Den House Rule</h2>
+                    <p>Food and drink will not be allowed in the Den, except if it belongs to dealers or their assistants.</p>
+                    <p>The doors will be staffed at all times, during opening hours, by a member of the Dealers’ Den and Security team.</p>
+                    <p>Photography & videography are not permitted in the Dealer’s Dan. We will also politely ask you to remove any videoing equipment such as Meta Glasses for your duration of your visit into the Dealers’ Den. </p>
+                    <p>Wearing Fursuits or any fursuit parts (including tails) is not permitted in the Dealers’ Den, this includes any item of clothing or bags (eg. rucksacks) that could cause damage due to safety concerns.</p>
 
-                    <h3 className="mt-4">Pricing</h3>
-                    <p>The tables will be €10 minimum charity donation.</p>
+
+
+                    <h2>How do I apply to be a dealer?</h2>
+
+                    <p>You’ll be able to apply to our Dealers’ Den on August 3rd at 6PM. We will announce the Dealers’ Den applications opening via our social media and channels. </p>
+                    <p>This year we are opening Dealers' Den applications before general convention tickets can be purchased, and you will be notified before payment is required if you are successful in your Den application. </p>
+
+                    <p>Dealers' Den applications open at <b>18:00 GMT+1</b> (London, Dublin) on <b>3rd of August 2027</b>.</p>
+                    <p>This year’s deadline will be at <b>18:00 GMT+1</b> on <b>23rd of August 2027.</b></p>
+                    <p>We will be letting dealers know before <b>23:59 GMT+1</b> on <b>28th August 2027.</b></p>
+
+
+                    <p>Applying for a table does not guarantee you a table.</p>
+                    <p>If you cancel your table, it will be offered to the next person on our waiting list. Tables cannot be bought or sold after being issued by the convention.</p>
+                    <p>If your preferred trading date is unavailable, we will offer you an alternative date or the option to go on the waiting list.</p>
                     <p>Please email <a href='mailto:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> for details.</p>
 
-                    <h3 className="mt-4">Equipment</h3>
-                    <p>We are required to ensure that all electricl equipment used by dealers is safe to be used.</p>
-                    <p>Dealers are required to declare and have any electrical items visually checked before setting up
-                        their tables. You will not be allowed to take electrical items to your table unless they have
-                        been checked.</p>
+                    <h2>Pricing</h2>
+                    <p>The tables will be €30 for the day.</p>
+                    <p>You must be a fully paid attendee to be approved for a table in the Dealers’ Den</p>
 
-                    <h3 className="mt-4">What do I Need to do Once I'm Confirmed?</h3>
-                    <p>Once you have been confirmed as a dealer, the next step is to register your attending ticket as
-                        soon as reg is open, please register asap to ensure you have everything in place to deal. Then
-                        prepare to sell. We will send out an email (using the email you registered with), which will
-                        include important information and the Dealers agreement. When you arrive at the convention we
-                        will ask you to pay for your table once the dealers den opens for set up.</p>
+                    <h2>What do I need to do once I'm confirmed?</h2>
+                    <p>Once you’ve been confirmed as a dealer, the next step is to make sure you have registered with Ainmhicon and have purchased a ticket for our 2027 event.  We will send out an email (using the email you registered with), which will include a payment link along with any additional information.</p>
 
-                    <h3 className="mt-4">I want to have an assistant, how do I organise that?</h3>
-                    <p>Dealers will be allocated one assistant badge per table requested (unless exceptional
-                        circumstances apply). You are then allowed to give the badge to a fully paid convention attendee
-                        to be an assistant(s).</p>
-
-                    <h2 className="text-4xl">Deadlines</h2>
-                    <h4 className="italic">Dealer's Den Registration</h4>
-                    <p>This year’s deadline will be at <strong>23.59 GMT on 18th of July 2026</strong>, But depending on
-                        demand, we may close Dealer registration earlier.</p>
-                    <p>We will be letting dealers know before 23.59 GMT on <strong>30th July 2026</strong>.</p>
-
-                    <h4 className="italic">Special Requests for Tables</h4>
-                    <p>We are happy to accommodate special requests for table layouts and displays, but you need to make
-                        sure you get these requests in by the <strong>30th November 2026</strong> (the sooner, the
-                        better). This is because we must do an in-depth risk assessment for the Den and submit it to the
-                        venue. Once this has been submitted, there can be no substitutions or changes made. You can
-                        contact us if you have any questions regarding this.</p>
-
-                    <p><strong><em>Please note that Management reserves the right to decline any request. There are
-                        limitations these include, but are not limited to:</em></strong></p>
-
-                    <ul className="list-disc list-inside my-0">
-                        <li>
-                            The dimensions of the table space offered.
-                        </li>
-                        <li>
-                            Displays, Stands, Booths, and other structures higher than 2.2 meters in total height from
-                            the floor.
-                        </li>
-                        <li>
-                            Not encroaching onto other Dealer's space.
-                        </li>
-                        <li>
-                            Maintaining safe access to walkways and fire exits.
-                        </li>
-                        <li>
-                            Keeping emergency exits clear and unobstructed.
-                        </li>
-                    </ul>
-
-                    <h3 >Contact Dealer's Den</h3>
-                    <p>Please email <a href='mailto:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> if you have any questions about being in the Dealer's Den!</p>
+                    <h2>I want to have an assistant, how do I organise that?</h2>
+                    <p>Dealers will be allocated one assistant badge per table requested (unless exceptional circumstances apply). This badge will be for the attendee you have specified in your Dealers’ Den application and only this attendee. If your assistant changes due to circumstance you will need to inform us via email.</p>
+                    
+                    <h2>Equipment</h2>
+                    <p>We are required to ensure that all electrical equipment used by dealers is PAT tested. This ensures the equipment is certified and safe to be used.</p>
+                    <p>Dealers are required to declare and have any electrical items visually checked before setting up their tables. You will not be allowed to take electrical items to your table unless they have been checked.</p>
+                    <p>This does not apply to devices powered solely by their internal batteries which are not plugged into mains electricity.</p>
+                    
+                    <h2>Contact Dealers’ Den</h2>
+                    <p>Please email <a href='maito:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> if you have any questions about being in the Dealers’ Den!</p>
+                    <br/>
+                    <p><i>For full Terms and Conditions for Dealers please see <a href='/dealers-den/terms'>this page</a></i></p>
                 </div>
             </div>
-        </article>
+        </article >
     );
 }

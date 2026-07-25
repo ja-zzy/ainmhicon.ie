@@ -11,11 +11,10 @@ export default function Home() {
           <div className="divider w-[50%] mx-auto"></div>
           <p>Events schedule coming soon!</p>
           <div className="divider w-[50%] mx-auto"></div>
-          <p>Dealer's Den Applications will open soon!</p>
+          <p>Dealer's Den Applications will open on 3<sup>rd</sup> August 2026! See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
           <div className="divider w-[50%] mx-auto"></div>
-          <p>Registration will open soon! You can set up your account anytime</p>
+          <p>Registration will open soon! You can set up your account <a href='https://reg.ainmhicon.ie'>any time</a></p>
           <div className="divider w-[50%] mx-auto"></div>
-          <LinkButton href='https://reg.ainmhicon.ie' size='xl'>Visit Registration Site</LinkButton>
         </article>
       </div>
 

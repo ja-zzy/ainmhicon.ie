@@ -16,6 +16,7 @@ export default function Footer() {
                 
                 <a href='/code-of-conduct'>Code of Conduct</a>
                 <a href='/privacy-policy'>Privacy Policy</a>
+                <a href='/terms-of-service'>Terms of Service</a>
 
                 <div className="divider w-[50%] mx-auto"></div>
                 

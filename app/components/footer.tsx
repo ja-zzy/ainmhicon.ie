@@ -35,7 +35,8 @@ export default function Footer() {
                     </a>
                 </div>
             </section>
-            <section className='prose prose-md flex flex-col items-center text-center justify-center col-span-2 lg:col-span-1 m-auto'>
+            <section className='prose prose-md flex flex-col items-center text-center justify-center col-span-2 lg:col-span-1 m-auto mt-4 sm:mt-auto'>
+                <div className="divider w-full mx-auto flex sm:hidden"></div>
                 <p>Copyright Ainmhicon 2026</p>
 
                 <p>Ainmhícon, Company Limited by Guarantee, Company No. 793565</p>

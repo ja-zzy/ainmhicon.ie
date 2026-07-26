@@ -13,7 +13,7 @@ export default function Home() {
           <div className="divider w-[50%] mx-auto"></div>
           <p>Dealer's Den Applications will open on 3<sup>rd</sup> August 2026! See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
           <div className="divider w-[50%] mx-auto"></div>
-          <p>Registration will open soon! You can set up your account <a href='https://reg.ainmhicon.ie'>any time</a></p>
+          <p>Ticket sales will begin soon! You can set up your account <a href='https://reg.ainmhicon.ie'>any time</a></p>
           <div className="divider w-[50%] mx-auto"></div>
         </article>
       </div>

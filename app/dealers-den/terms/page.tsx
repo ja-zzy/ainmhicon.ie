@@ -1,4 +1,4 @@
-export default function DealersDen() {
+export default function DealersDenTerms() {
     return (
         <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
             <div className="w-full bg-base-100">

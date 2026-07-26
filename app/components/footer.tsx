@@ -10,8 +10,15 @@ export default function Footer() {
                 <a href='/'>Home</a>
                 <a href='/faq'>FAQ</a>
                 <a href='/pricing'>Pricing</a>
-                <a href='/code-of-conduct'>Code of Conduct</a>
                 <a href='/dealers-den'>Dealer's Den</a>
+
+                <div className="divider w-[50%] mx-auto"></div>
+                
+                <a href='/code-of-conduct'>Code of Conduct</a>
+                <a href='/privacy-policy'>Privacy Policy</a>
+
+                <div className="divider w-[50%] mx-auto"></div>
+                
                 <a href='/contact'>Contact</a>
             </nav>
             <section className='prose prose-sm flex flex-col items-center justify-center '>
@@ -28,7 +35,8 @@ export default function Footer() {
                     </a>
                 </div>
             </section>
-            <section className='prose prose-md flex flex-col items-center text-center justify-center col-span-2 lg:col-span-1 m-auto'>
+            <section className='prose prose-md flex flex-col items-center text-center justify-center col-span-2 lg:col-span-1 m-auto mt-4 sm:mt-auto'>
+                <div className="divider w-full mx-auto flex sm:hidden"></div>
                 <p>Copyright Ainmhicon 2026</p>
 
                 <p>Ainmhícon, Company Limited by Guarantee, Company No. 793565</p>

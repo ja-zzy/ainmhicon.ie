@@ -10,8 +10,15 @@ export default function Footer() {
                 <a href='/'>Home</a>
                 <a href='/faq'>FAQ</a>
                 <a href='/pricing'>Pricing</a>
-                <a href='/code-of-conduct'>Code of Conduct</a>
                 <a href='/dealers-den'>Dealer's Den</a>
+
+                <div className="divider w-[50%] mx-auto"></div>
+                
+                <a href='/code-of-conduct'>Code of Conduct</a>
+                <a href='/privacy-policy'>Privacy Policy</a>
+
+                <div className="divider w-[50%] mx-auto"></div>
+                
                 <a href='/contact'>Contact</a>
             </nav>
             <section className='prose prose-sm flex flex-col items-center justify-center '>

@@ -7,7 +7,7 @@ export default function Pricing() {
                     <div className="card bg-base-200 card-lg shadow-sm m-auto">
                         <div className="card-body">
                             <p>
-                                Registration for attendees will open <b>Tuesday 25<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.<br/><br/><b>Ticket prices for 2027 will be announced on this page shortly.</b>
+                                Registration for attendees will open <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.<br/><br/><b>Ticket prices for 2027 will be announced on this page shortly.</b>
                             </p>
 
                         </div>

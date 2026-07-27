@@ -3,7 +3,7 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.webp' alt="Ainmhícon" className='w-full min-h-[30vh] max-h-[30vh] object-contain' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
+      <img src='/roots.webp' alt="Ainmhícon" className='w-full h-74 max-h-[30vh] sm:max-h-[40vh] object-contain' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 px-4 text-center">
           <h1>Ainmhícon</h1>

@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.webp' className='w-full min-h-[30vh] max-h-[50vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
+      <img src='/roots.webp' alt="Ainmhícon" className='w-full h-74 max-h-[40vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 px-4 text-center">
           <h1>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h1>
@@ -11,7 +11,7 @@ export default function Home() {
           <div className="divider w-[50%] mx-auto"></div>
           <p>Dealer's Den Applications will open on 3<sup>rd</sup> August 2026! See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
           <div className="divider w-[50%] mx-auto"></div>
-          <p>Ticket sales will begin soon! You can set up your account <a href='https://reg.ainmhicon.ie'>any time</a></p>
+          <p>Ticket sales will begin soon! In order to buy a ticket and provide us your registration info, you will need an account. You can set up your account at <a href='https://reg.ainmhicon.ie'>any time</a></p>
           <div className="divider w-[50%] mx-auto"></div>
         </article>
       </div>

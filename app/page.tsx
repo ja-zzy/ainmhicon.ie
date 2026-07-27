@@ -3,7 +3,7 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.webp' alt="Ainmhícon" className='w-full min-h-[30vh] max-h-[50vh] object-contain' style={{filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))'}} />
+      <img src='/roots.webp' alt="Ainmhícon" className='w-full min-h-[30vh] max-h-[50vh] object-contain' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 px-4 text-center">
           <h1>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h1>
@@ -25,14 +25,30 @@ export default function Home() {
         </figure>
         <div className="card-body prose prose-lg">
           <h2 className="card-title">What is Ainmhícon?</h2>
-          <p>Ainmhícon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention". <br/><br/>
-          Last year Craic & Ceòl were let loose on Dublin as we opened our doors for the first time. With over 300 attendees we had a great
-          first year, so great in fact that we've decided to do it all again in 2027!</p>
+          <p>Ainmhícon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention". <br /><br />
+            Last year Craic & Ceòl were let loose on Dublin as we opened our doors for the first time. With over 300 attendees we had a great
+            first year, so great in fact that we've decided to do it all again in 2027!</p>
 
         </div>
         <figure className="min-w-[50%] hidden lg:block">
           <img src='/game.gif' />
         </figure>
+      </div>
+
+      <div className="card prose bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
+        <div className="card-body">
+          <h3 className='mt-0'>About this site</h3>
+          <p>
+            ainmhicon.ie is the official website and online hub for Ainmhícon, an annual Irish furry convention established in 2026.
+            Visitors can use this site to:
+          </p>
+
+          <ul className="mt-0 mb-0">
+            <li>Check event times, descriptions and locations</li>
+            <li>Find out about our Dealers' Den and the application process</li>
+            <li>Securely create an account using email or through a Third-Party Provider such as Google or Discord in order to purchase tickets for upcoming conventions</li>
+          </ul>
+        </div>
       </div>
     </div>
   );

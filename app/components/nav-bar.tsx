@@ -6,7 +6,7 @@ export default function NavBar() {
 
             <div className="navbar-start h-full w-auto">
                 <a href='/' className='mr-auto shrink-0  h-full' >
-                    <img src='/logo.webp' className='h-full' />
+                    <img alt="Ainmhícon Home" src='/logo.webp' className='h-full' />
                 </a></div>
 
             <div className="navbar-end w-auto">

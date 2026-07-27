@@ -7,7 +7,7 @@ export default function Pricing() {
                     <div className="card bg-base-200 card-lg shadow-sm m-auto">
                         <div className="card-body">
                             <p>
-                                Registration for attendees will open <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.<br/><br/><b>Ticket prices for 2027 will be announced on this page shortly.</b>
+                                Registration for attendees will open <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.<br /><br /><b>Ticket prices for 2027 will be announced on this page shortly.</b>
                             </p>
 
                         </div>
@@ -20,11 +20,15 @@ export default function Pricing() {
                     <div className="card bg-base-200 card-lg shadow-sm lg:card-side m-auto">
 
                         <div className="card-body shrink">
-                            <p>If you need a place to stay during the convention then our venue, <a href='https://www.claytonhotels.com/liffey-valley/'>Clayton Hotel Liffey Valley</a>, is the place to be! For the 2<sup>nd</sup> - 4<sup>th</sup> of April 2027 they are providing reduced prices for con goers. The hotel sports a 20m Pool & Club Vitae Leisure Centre, 349 Rooms & Suites (including accessible rooms on request) and parking available at €6 per night.The hotel has a large car park. The overnight charge is €10 per vehicle, hours 0-2 are free and after 2 hours it is €3 per hour. The discount code for the hotel will be provided after registration payment is completed.</p>
+                            <p>If you need a place to stay during the convention then our venue, <a href='https://www.claytonhotels.com/liffey-valley/'>Clayton Hotel Liffey Valley</a>, is the place to be! For the 2<sup>nd</sup> - 4<sup>th</sup> of April 2027 they are providing reduced prices for con goers. The hotel sports a 20m Pool & Club Vitae Leisure Centre, 349 Rooms & Suites (including accessible rooms on request) and parking available at €6 per night. The hotel has a large car park. The overnight charge is €10 per vehicle, hours 0-2 are free and after 2 hours it is €3 per hour. The discount code for the hotel will be provided after registration payment is completed.</p>
 
                         </div>
                         <figure className="hidden lg:block h-87.5 shrink-0 max-w-62 h-full">
-                            <img src='/hotel.webp' />
+                            <img src='/hotel.webp'
+                                alt="Clayton Hotel Liffey Valley's room options. Deluxe Double & Single Room, Sleeps 3,
+                                1 Double & 1 Single Bed. Deluxe Double Room, Sleeps 2, 1 Double Bed. Deluxe Family Room,
+                                Sleeps 4, 1 Double & 2 Single Bed. Deluxe Family Suite, Sleeps 5, 2 Double Beds. Deluxe
+                                Suite, Sleeps 2, 1 Double Bed." />
                         </figure>
                     </div>
                 </article>

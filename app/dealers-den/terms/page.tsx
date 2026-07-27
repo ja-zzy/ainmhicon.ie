@@ -50,7 +50,7 @@ export default function DealersDenTerms() {
                             Dealers maintain sole responsibility and liability to monitor, manage and secure their valuables and stock at all times — any Dealers’ unsupervised property is left in Den at Dealers’ own risk,
                         </li>
                         <li>
-                            The Convention accepts no liability for any loss/theft/damage unless caused through negligence of the Ainmhícon team.
+                            The Convention accepts no liability for any loss/theft/damage to Dealers' personal property that is left unsupervised, and notes that Dealers do so at their own risk.
                         </li>
                         <li>
                             Dealers are responsible for ensuring that their registration information is accurate and up to date, as these details are published in the Conbook and on the Ainmhícon Website.

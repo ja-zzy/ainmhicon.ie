@@ -1,3 +1,5 @@
+import LinkButton from "../components/link-button";
+
 export default function CodeOfConduct() {
     return (
         <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
@@ -44,17 +46,27 @@ export default function CodeOfConduct() {
                         <p>Through their account, attendees can purchase tickets for different dates and ticket tiers. Registered attendees can access the information they need for check-in and attendance at the convention.</p>
                         <h3>Other Site Features</h3>
                         <p>The Ainmhícon website also provides information about:</p>
-                        
+
                         <ul>
                             <li>Dealer's Den applications and information for artists and vendors</li>
                             <li>Convention events and schedules</li>
                             <li>Venue information</li>
                             <li>Other updates related to the convention</li>
                         </ul>
-                        <h3>Google Sign-In</h3>
-                        <p>Google Sign-In is provided as a convenient and secure way for attendees to access their Ainmhícon account. Google authentication is used only to verify a user's identity and help create or access their Ainmhícon account.</p>
-                        <p>Ainmhícon only requests the basic Google account information required for account authentication, such as name, email address, and profile information where available.</p>
-                        <p>For more information about how we handle personal information, please see our <a href='privacy-policy'>Privacy Policy</a>.</p>
+                        <h2>Ainmhícon Application Profile & Data Usage</h2>
+
+                        <p>
+                            <strong>Application Purpose:</strong> Ainmhícon is a web application designed to manage ticket sales, attendee registration, and user accounts for the annual Ainmhícon convention in Dublin, Ireland.
+                        </p>
+
+                        <p>
+                            <strong>Google User Data Purpose:</strong> When you use Google Sign-In, the Ainmhícon web application requests access to your basic profile information (specifically your <strong>openid</strong> identifier, <strong>profile</strong> information, and <strong>email</strong> address). We use this information strictly to create your secure attendee profile, verify your identity upon login, communicate essential ticket information, and pre-fill your convention badge details.
+                        </p>
+
+                        <p>
+                            We do not use your Google data for any purpose outside of convention registration, nor do we sell or share this information with external third parties.
+                        </p>
+                        <div className="m-auto"><LinkButton href='https://reg.ainmhicon.ie'>Login</LinkButton></div>
                     </div>
                 </div>
             </div>

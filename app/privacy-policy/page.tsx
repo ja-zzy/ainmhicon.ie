@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
             </div>
             <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body">
-                    <p className='ml-auto'><i>Last revision: 27/07/2025, Reviewed: 27/07/2026</i></p>
+                    <p className='ml-auto'><i>Last revision: 27/07/2026, Reviewed: 27/07/2026</i></p>
                     <p>Ainmhícon (“We”, “Us”, “the Convention” or “the Controller”) are bound by data protection law and the General Data Protection Regulation (“GDPR”). In particular, We ascribe to the seven key principles outlined in Article 5 of GDPR relating to the processing of personal data of Convention attendees (“You”, or the “Data Subject”) by the Convention, who is considered the controller of personal information provided in connection with the Convention. These principles outlined in Article 5 of GDPR are:</p>
                     <ol>
                         <li>

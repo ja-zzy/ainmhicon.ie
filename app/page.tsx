@@ -3,13 +3,13 @@ import LinkButton from "./components/link-button";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 items-center">
-      <img src='/roots.webp' alt="Ainmhicon" className='w-full min-h-[30vh] max-h-[30vh] object-contain' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
+      <img src='/roots.webp' alt="Ainmhícon" className='w-full min-h-[30vh] max-h-[30vh] object-contain' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 px-4 text-center">
-          <h1>Ainmhicon</h1>
+          <h1>Ainmhícon</h1>
           <h2 className='mt-0'>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h2>
-          <p>Ainmhicon is thrilled to welcome you back to for its second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
-          <p>Ainmhicon is the official website and ticketing platform for Ainmhicon, an annual Irish furry convention held in Dublin. Use this site to create an account, purchase convention tickets, manage your registration, and find event information.</p>
+          <p>Ainmhícon is thrilled to welcome you back to for its second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
+          <p>Ainmhícon is the official website and ticketing platform for Ainmhícon, an annual Irish furry convention held in Dublin. Use this site to create an account, purchase convention tickets, manage your registration, and find event information.</p>
           <div className="divider w-[50%] mx-auto"></div>
           <p>Events schedule coming soon!</p>
           <div className="divider w-[50%] mx-auto"></div>
@@ -26,8 +26,8 @@ export default function Home() {
           <img src='/game.gif' />
         </figure>
         <div className="card-body prose prose-lg">
-          <h2 className="card-title">What is Ainmhicon?</h2>
-          <p>Ainmhicon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention". <br /><br />
+          <h2 className="card-title">What is Ainmhícon?</h2>
+          <p>Ainmhícon- A portmanteau of the word "ainmhí" meaning "animal" as Gaeilge (in Irish) and "con" short for "convention". <br /><br />
             Last year Craic & Ceòl were let loose on Dublin as we opened our doors for the first time. With over 300 attendees we had a great
             first year, so great in fact that we've decided to do it all again in 2027!</p>
 
@@ -41,7 +41,7 @@ export default function Home() {
         <div className="card-body">
           <h3 className='mt-0'>About this site</h3>
           <p>
-            ainmhicon.ie is the official website and online hub for Ainmhicon, an annual Irish furry convention established in 2026.
+            ainmhicon.ie is the official website and online hub for Ainmhícon, an annual Irish furry convention established in 2026.
             Visitors can use this site to:
           </p>
 

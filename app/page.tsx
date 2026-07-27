@@ -9,8 +9,7 @@ export default function Home() {
           <h1>Ainmhícon</h1>
           <h2 className='mt-0'>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h2>
           <p>Ainmhícon is thrilled to welcome you back to for its second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
-          <p>Ainmhícon is the official website and online platform for Ainmhícon, an annual Irish furry convention held in Dublin.</p>
-          <p>Create an Ainmhícon account or log in using email, Google, or Discord to purchase and manage tickets for our upcoming conventions.</p>
+          <p>Ainmhícon is the official website and ticketing platform for Ainmhícon, an annual Irish furry convention held in Dublin. Use this site to create an account, purchase convention tickets, manage your registration, and find event information.</p>
           <div className="divider w-[50%] mx-auto"></div>
           <p>Events schedule coming soon!</p>
           <div className="divider w-[50%] mx-auto"></div>

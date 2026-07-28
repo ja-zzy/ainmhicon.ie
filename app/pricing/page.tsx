@@ -7,9 +7,125 @@ export default function Pricing() {
                     <div className="card bg-base-200 card-lg shadow-sm m-auto">
                         <div className="card-body">
                             <p>
-                                Registration for attendees will open <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.<br/><br/><b>Ticket prices for 2027 will be announced on this page shortly.</b>
+                                Ticket Sales for attendees will begin on <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.
                             </p>
-
+                            <p><a href='https://reg.ainmhicon.ie/'>Register for an account</a> to be ready the moment tickets go on sale.</p>
+                        </div>
+                    </div>
+                </article>
+                <div className="divider w-[50%] mx-auto"></div>
+                 <article className='m-auto px-10 m-w-full group py-10'>
+                    <div className='flex flex-row justify-center items-center gap-6 mb-8'>
+                        <label className='flex-1 text-2xl  text-right'>Day Pass</label>
+                        <input type="checkbox" defaultChecked className="toggle toggle-neutral" aria-label='Attendance duration toggle' />
+                        <label className='flex-1 text-2xl text-left'>Full-Event</label>
+                    </div>
+                    <div className='grid grid-cols-1 auto-rows-auto lg:grid-cols-3 lg:grid-rows-1 lg:auto-rows-auto justify-center gap-6 m-auto max-w-100 lg:max-w-300 text-neutral-content'>
+                        <div className="card bg-accent shadow-lg rounded-xl overflow-hidden scale-100 hover:scale-110 transition-transform duration-250">
+                            <div className="card-body p-0 gap-0">
+                                <div className="flex flex-col">
+                                    <h2 className="text-2xl font-light bg-(--color-base-400) text-neutral-content m-0! py-2">STANDARD TICKET</h2>
+                                </div>
+                                <div className="font-bold join join-vertical bg-accent">
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span className='inline group-has-checked:hidden'>1 Day Entry</span>
+                                        <span className='hidden group-has-checked:inline'>3 Day Entry</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Conbook and Bag</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Ainmhícon Merch</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Convention Lanyard</span>
+                                    </div>
+                                </div>
+                                <span className="text-xl font-bold bg-accent content py-4  mt-auto border-t border-neutral  inline group-has-checked:hidden">€50 <span className='align-super text-xs'>/Day</span></span>
+                                <span className="text-xl font-bold bg-accent content py-4  mt-auto border-t border-neutral  hidden group-has-checked:inline">€95 <span className='align-super text-xs'>/Full-Event</span></span>
+                            </div>
+                        </div>
+                        <div className="card bg-accent shadow-lg rounded-xl overflow-hidden scale-100 hover:scale-110 transition-transform duration-250">
+                            <div className="card-body p-0 gap-0">
+                                <div className="flex flex-col">
+                                    <h2 className="text-2xl font-light bg-(--color-base-400) text-neutral-content m-0! py-2">SPONSOR</h2>
+                                </div>
+                                <div className="font-bold join join-vertical bg-accent">
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span className='inline group-has-checked:hidden'>1 Day Entry</span>
+                                        <span className='hidden group-has-checked:inline'>3 Day Entry</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Hardback Conbook and Bag</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Ainmhícon Merch</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Sponsor Lanyard</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>T-Shirt</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Early access to the Dealer's Den</span>
+                                    </div>
+                                </div>
+                                <span className="text-xl font-bold bg-accent content py-4  mt-auto border-t border-neutral  inline group-has-checked:hidden">€105 <span className='align-super text-xs'>/Day</span></span>
+                                <span className="text-xl font-bold bg-accent content py-4  mt-auto border-t border-neutral  hidden group-has-checked:inline">€175 <span className='align-super text-xs'>/Full-Event</span></span>
+                            </div>
+                        </div>
+                        <div className="card opacity-50 grayscale-100 group-has-checked:grayscale-0 group-has-checked:opacity-100 bg-accent shadow-lg rounded-xl overflow-hidden scale-100 group-has-checked:hover:scale-110 transition-all duration-250">
+                            <div className="card-body p-0 gap-0">
+                                <div className="flex flex-col">
+                                    <h2 className="text-2xl font-light bg-(--color-base-400) m-0! py-2">SUPER SPONSOR</h2>
+                                </div>
+                                <div className="font-bold join join-vertical bg-accent">
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>3 Day Entry</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Hardback Conbook and Bag</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Ainmhícon Merch</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Super Sponsor Lanyard</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>T-Shirt</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Early access to the Dealer's Den</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Conbook Honourable Mention</span>
+                                    </div>
+                                    <div className='border-b border-neutral py-2'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
+                                        <span>Exclusive Super Sponsor Merch</span>
+                                    </div>
+                                </div>
+                                <span className="text-xl font-bold bg-accent content py-4">€275 <span className='align-super text-xs'>/Full-Event</span></span>
+                            </div>
                         </div>
                     </div>
                 </article>

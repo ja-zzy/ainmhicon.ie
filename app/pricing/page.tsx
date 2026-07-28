@@ -9,16 +9,16 @@ export default function Pricing() {
                             <p>
                                 Ticket Sales for attendees will begin on <b>Sunday 30<sup>th</sup> of August at 6pm Irish Standard Time</b>. Ticket prices are non-residential and do not include hotel fees. We have procured a discount code for those wishing to stay at the Clayton Hotel, and the code that will be made available to you once you have completed registration payment.
                             </p>
-                            <p>Register for an account <a href='https://reg.ainmhicon.ie/'>here</a> to be ready the moment tickets go on sale.</p>
+                            <p><a href='https://reg.ainmhicon.ie/'>Register for an account</a> to be ready the moment tickets go on sale.</p>
                         </div>
                     </div>
                 </article>
                 <div className="divider w-[50%] mx-auto"></div>
                  <article className='m-auto px-10 m-w-full group py-10'>
                     <div className='flex flex-row justify-center items-center gap-6 mb-8'>
-                        <h3 className='flex-1 text-2xl  text-right'>Day Pass</h3>
-                        <input type="checkbox" defaultChecked className="toggle toggle-neutral" />
-                        <h3 className='flex-1 text-2xl text-left'>Full-Event</h3>
+                        <label className='flex-1 text-2xl  text-right'>Day Pass</label>
+                        <input type="checkbox" defaultChecked className="toggle toggle-neutral" aria-label='Attendance duration toggle' />
+                        <label className='flex-1 text-2xl text-left'>Full-Event</label>
                     </div>
                     <div className='grid grid-cols-1 auto-rows-auto lg:grid-cols-3 lg:grid-rows-1 lg:auto-rows-auto justify-center gap-6 m-auto max-w-100 lg:max-w-300 text-neutral-content'>
                         <div className="card bg-accent shadow-lg rounded-xl overflow-hidden scale-100 hover:scale-110 transition-transform duration-250">

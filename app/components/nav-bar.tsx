@@ -2,11 +2,11 @@ import LinkButton from "./link-button";
 
 export default function NavBar() {
     return (
-        <nav className='navbar w-full h-25 flex flex-row px-2 bg-base-200 justify-between shadow-[0_0_15px_3px_var(--color-base-200)] md:px-10'>
+        <nav className='navbar w-full h-25 flex flex-row px-2 bg-base-200 justify-between shadow-sm lg:px-10'>
 
             <div className="navbar-start h-full w-auto">
                 <a href='/' className='mr-auto shrink-0  h-full' >
-                    <img src='/logo.webp' className='h-full' />
+                    <img src='/logo.webp' className='h-full' alt="Ainmhícon"/>
                 </a></div>
 
             <div className="navbar-end w-auto">
@@ -21,12 +21,12 @@ export default function NavBar() {
                 </div>
 
                 <div className="dropdown visible md:hidden">
-                    <div tabIndex={0} role="button" className="btn btn-ghost md:hidden">
+                    <div tabIndex={0} role="button" className="btn btn-ghost md:hidden" aria-label='Navigation Menu Dropdown'>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                     </div>
                     <ul
                         tabIndex={-1}
-                        className="menu menu-lg dropdown-content bg-base-200 rounded-box z-1 mt-3 w-auto p-2 shadow-lg right-3">
+                        className="menu menu-lg dropdown-content rounded-box z-1 mt-3 w-auto p-2 shadow-lg right-3 bg-neutral text-neutral-content">
                         <li><a className='whitespace-nowrap' href='/'>Home</a></li>
                         <li><a className='whitespace-nowrap' href='/faq'>FAQ</a></li>
                         <li><a className='whitespace-nowrap' href='/pricing'>Pricing</a></li>

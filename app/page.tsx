@@ -4,8 +4,8 @@ export default function Home() {
       <img src='/roots.webp' alt="Ainmhícon" className='w-full h-74 max-h-[40vh] object-contain mt-4 md:mt-8' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
       <div className="w-full bg-base-100">
         <article className="prose prose-xl m-auto py-10 px-4 text-center">
-          <div className="card card-xl bg-base-200 ">
-            <div className="card-body py-12 prose-lg sm:prose-xl">
+          <div className="card card-lg sm:card-xl bg-base-200 ">
+            <div className="card-body py-12">
               <h1 className='mb-0!'>Ainmhícon is back!</h1>
               <h2>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h2>
               <p>Ainmhícon is thrilled to welcome you back to for it's second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
@@ -23,7 +23,7 @@ export default function Home() {
       <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw]  max-w-275 lg:card-side my-20">
 
         <figure className="min-w-[50%] block lg:hidden">
-          <img src='/game.gif' />
+          <img src='/game.gif' alt="Craic & Ceòl playing retro games"/>
         </figure>
         <div className="card-body prose prose-lg">
           <h2 className="card-title">What is Ainmhícon?</h2>
@@ -35,7 +35,7 @@ export default function Home() {
           </p>
         </div>
         <figure className="min-w-[50%] hidden lg:block">
-          <img src='/game.gif' />
+          <img src='/game.gif' alt="Craic & Ceòl playing retro games" />
         </figure>
       </div>
     </div>

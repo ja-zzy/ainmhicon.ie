@@ -34,7 +34,7 @@ export default function Pricing() {
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Con Book and Bag</span>
+                                        <span>Conbook and Bag</span>
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -62,7 +62,7 @@ export default function Pricing() {
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Hardback Con Book and Bag</span>
+                                        <span>Hardback Conbook and Bag</span>
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -78,7 +78,7 @@ export default function Pricing() {
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Priority Queueing for some events</span>
+                                        <span>Early access to the Dealer's Den</span>
                                     </div>
                                 </div>
                                 <span className="text-xl font-bold bg-accent content py-4  mt-auto border-t border-neutral  inline group-has-checked:hidden">€105 <span className='align-super text-xs'>/Day</span></span>
@@ -97,7 +97,7 @@ export default function Pricing() {
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Hardback Con Book and Bag</span>
+                                        <span>Hardback Conbook and Bag</span>
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
@@ -113,11 +113,11 @@ export default function Pricing() {
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Priority Queueing for some events</span>
+                                        <span>Early access to the Dealer's Den</span>
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                                        <span>Early access to the Dealer's Den</span>
+                                        <span>Conbook Honourable Mention</span>
                                     </div>
                                     <div className='border-b border-neutral py-2'>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="size-4 me-2 inline-block text-neutral-content" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>

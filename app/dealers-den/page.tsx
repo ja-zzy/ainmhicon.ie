@@ -1,10 +1,10 @@
 export default function DealersDen() {
     return (
-        <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
-            <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]">Dealer's Den 2027 Information</h1>
+        <article className="pt-10 w-[90vw] md:w-[70vw] max-w-275 m-auto">
+            <div className="w-full bg-base-100 bg-base-200 rounded-t-box">
+                <h1 className="pt-10 text-center font-bold text-5xl sm:text-[2.8em]">Dealer's Den 2027 Information</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
+            <div className="card prose bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side rounded-t-none">
                 <div className="card-body">
                     <h2 className='mt-0'>General Information</h2>
                     <p>The Dealers’ Den is the convention's marketplace, hosting a variety of dealers for you to hopefully find something awesome!</p>
@@ -46,15 +46,15 @@ export default function DealersDen() {
 
                     <h2>I want to have an assistant, how do I organise that?</h2>
                     <p>Dealers will be allocated one assistant badge per table requested (unless exceptional circumstances apply). This badge will be for the attendee you have specified in your Dealers’ Den application and only this attendee. If your assistant changes due to circumstance you will need to inform us via email.</p>
-                    
+
                     <h2>Equipment</h2>
                     <p>We are required to ensure that all electrical equipment used by dealers is PAT tested. This ensures the equipment is certified and safe to be used.</p>
                     <p>Dealers are required to declare and have any electrical items visually checked before setting up their tables. You will not be allowed to take electrical items to your table unless they have been checked.</p>
                     <p>This does not apply to devices powered solely by their internal batteries which are not plugged into mains electricity.</p>
-                    
+
                     <h2>Contact Dealers’ Den</h2>
                     <p>Please email <a href='maito:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> if you have any questions about being in the Dealers’ Den!</p>
-                    <br/>
+                    <br />
                     <p><i>For full Terms and Conditions for Dealers please see <a href='/dealers-den/terms'>this page</a></i></p>
                 </div>
             </div>

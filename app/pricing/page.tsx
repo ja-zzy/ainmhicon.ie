@@ -14,7 +14,7 @@ export default function Pricing() {
                     </div>
                 </article>
                 <div className="divider w-[50%] mx-auto"></div>
-                 <article className='m-auto px-10 m-w-full group py-10'>
+                <article className='m-auto px-10 m-w-full group py-10'>
                     <div className='flex flex-row justify-center items-center gap-6 mb-8'>
                         <label className='flex-1 text-2xl  text-right'>Day Pass</label>
                         <input type="checkbox" defaultChecked className="toggle toggle-neutral" aria-label='Attendance duration toggle' />
@@ -140,7 +140,13 @@ export default function Pricing() {
 
                         </div>
                         <figure className="hidden lg:block h-87.5 shrink-0 max-w-62 h-full">
-                            <img src='/hotel.webp' />
+                            <img src='/hotel.webp'
+                                alt="Clayton Hotel room offerings.
+                                Deluxe Double & Single Room: Sleeps 3, 1 Double & 1 Single Bed.
+                                Deluxe Double Room: Sleeps 2, 1 Double Bed.
+                                Deluxe Family Room: Sleeps 4, 1 Double & 2 Single Bed.
+                                Deluxe Family Suite: Sleeps 5, 2 Double Beds.
+                                Deluxe Suite: Sleeps 2, 1 Double Bed."/>
                         </figure>
                     </div>
                 </article>

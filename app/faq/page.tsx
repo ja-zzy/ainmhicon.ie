@@ -8,7 +8,7 @@ export default function Faq() {
 
                     <div className="join join-vertical bg-accent overflow-hidden radius rounded-4xl w-full shadow-2xl">
                         <div className="collapse collapse-arrow join-item border-base-300 border">
-                            <input type="radio" name="my-accordion-4" defaultChecked />
+                            <input type="radio" name="my-accordion-4" />
                             <div className="collapse-title font-semibold text-left">Where do I register?</div>
                             <div className="collapse-content text-sm">You can register online at <a href='https://reg.ainmhicon.ie' className='text-neutral-content'>reg.ainmhicon.ie</a>. On-site registration may not be available due to demand, so we recommend registering early to secure your spot. </div>
                         </div>

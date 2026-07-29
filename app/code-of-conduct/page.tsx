@@ -1,10 +1,10 @@
 export default function CodeOfConduct() {
     return (
-        <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
-            <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 pb-0 md:pb-10 text-center text-5xl sm:text-[2.8em]">Ainmhícon Code of Conduct</h1>
+        <article className="pt-10 w-[90vw] md:w-[70vw] max-w-275 m-auto">
+            <div className="w-full bg-base-100 bg-base-200 rounded-t-box">
+                <h1 className="pt-10 text-center font-bold text-5xl sm:text-[2.8em]">Ainmhícon Code of Conduct</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
+            <div className="card prose bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side rounded-t-none">
                 <div className="card-body py-12">
                     <div className="flex flex-col flex-1">
                         <h2 className="mt-0 ">Preamble</h2>

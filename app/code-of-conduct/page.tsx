@@ -24,7 +24,7 @@ export default function CodeOfConduct() {
                         <p>AnV reserves the right to refuse entry to any person, including registered attendees. If you feel
                             you were unfairly refused entry, you can contact <a href="mailto:mail@aimhicon.ie">mail@aimhicon.ie</a> regarding same.</p>
 
-                        <h3>Identification</h3>
+                        <h3 id='id'>Identification</h3>
                         <p>In order to receive your badge at the Convention, you will be required to provide a physical form
                             of Government-issued identification that matches the name you provided during registration.
                             Digital forms of identification are not considered sufficient for Ainmhícon. This identification must

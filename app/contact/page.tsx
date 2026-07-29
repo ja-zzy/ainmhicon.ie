@@ -28,11 +28,11 @@ export default function ContactPage() {
 
     return (
 
-        <article className="flex flex-col flex-1 items-center prose prose-xl m-auto">
-            <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 pb-0 md:pb-10 text-center text-5xl sm:text-[2.8em]">Get In Touch</h1>
+        <article className="pt-10 w-[90vw] md:w-[70vw] max-w-275 m-auto">
+            <div className="w-full bg-base-100 bg-base-200 rounded-t-box">
+                <h1 className="pt-10 text-center font-bold text-5xl sm:text-[2.8em]">Get In Touch</h1>
             </div>
-            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side padding flex flex-col p-8">
+            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side padding flex flex-col p-8 rounded-t-none">
                 <span className="pt-6 text-center">Fill out the form below and one of our staff will get back to you as soon as possible! <br/>If you prefer, you can also contact us directly at <a href="mailto:mail@ainmhicon.ie" className="underline">mail@ainmhicon.ie</a></span>
                 <form onSubmit={onSubmit}>
                     <div className="mb-5 pt-10">
@@ -56,12 +56,12 @@ export default function ContactPage() {
                             className="w-full resize-none rounded-md border py-3 px-2"></textarea>
                     </div>
                     <div>
-                        <button className="hover:shadow-form rounded-md bg-base-100 py-3 w-full font-bold">Send Message</button>
+                        <button className="hover:shadow-form rounded-md bg-info-content py-3 w-full font-bold">Send Message</button>
                     </div>
                 </form>
                 <div>
-                    {formSuccess && <span><strong className="text-success">Message has been sent successfully! We will get back to you as soon as possible</strong></span>}
-                    {formError && <span><strong className="text-error">Something went wrong... Please try again later or email us directly via mail@ainmhicon.ie</strong></span>}
+                    {formSuccess && <span className="text-info"><strong>Message has been sent successfully! We will get back to you as soon as possible</strong></span>}
+                    {formError && <span className="text-warning"><strong>Something went wrong... Please try again later or email us directly via mail@ainmhicon.ie</strong></span>}
                 </div>
             </div>
         </article>

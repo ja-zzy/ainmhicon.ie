@@ -1,10 +1,10 @@
 export default function DealersDenTerms() {
     return (
-        <article className="pt-10 w-[90vw] md:w-[70vw] max-w-275 m-auto">
-            <div className="w-full bg-base-100 bg-base-200 rounded-t-box">
-                <h1 className="pt-10 text-center font-bold text-5xl sm:text-[2.8em]">Terms and Conditions for Dealers</h1>
+        <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
+            <div className="w-full bg-base-100">
+                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]  text-shadow-[0_0_3px_black]">Terms and Conditions for Dealers</h1>
             </div>
-            <div className="card prose bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side rounded-t-none">
+            <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body">
                     <p className='ml-auto'><i>Last revision: 23/07/2026</i></p>
                     <p>By registering as a Dealer or Dealer’s Assistant(s), you agree to comply with all relevant terms, conditions and policies provided to you in this document by the Dealers’ Den Team and Ainmhícon (hereby referred to as “the Convention”).</p>

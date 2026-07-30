@@ -31,10 +31,9 @@ export default function DealersDen() {
                     <p>This year’s deadline will be at <b>18:00 GMT+1</b> on <b>23rd of August 2027.</b></p>
                     <p>We will be letting dealers know before <b>23:59 GMT+1</b> on <b>28th August 2027.</b></p>
 
-
+                    <p>You may only apply to deal on a single day.</p>
                     <p>Applying for a table does not guarantee you a table.</p>
                     <p>If you cancel your table, it will be offered to the next person on our waiting list. Tables cannot be bought or sold after being issued by the convention.</p>
-                    <p>If your preferred trading date is unavailable, we will offer you an alternative date or the option to go on the waiting list.</p>
                     <p>Please email <a href='mailto:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> for details.</p>
 
                     <h2>Pricing</h2>

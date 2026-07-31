@@ -34,7 +34,7 @@ export default function Home() {
             Here on the Ainmhícon website you can find out about our upcoming events, the Dealer's Den and you can also create an account to register and buy tickets for our conventions!
           </p>
         </div>
-        <figure className="min-w-[50%] hidden lg:block">
+        <figure className="min-w-[50%] max-w-[50%] hidden lg:block">
           <img src='/game.gif' alt="Craic & Ceòl playing retro games" />
         </figure>
       </div>

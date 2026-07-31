@@ -3,7 +3,7 @@ export default function Pricing() {
         <div className="flex flex-col flex-1 items-center">
             <div className="w-full bg-base-100 text-center">
                 <article className=" prose prose-xl m-auto py-10 w-[90vw] md:w-[70vw]  max-w-205">
-                    <h1 className="text-5xl sm:text-[2.8em]">Registration & Pricing</h1>
+                    <h1 className="text-5xl sm:text-[2.8em]  text-shadow-[0_0_3px_black]">Registration & Pricing</h1>
                     <div className="card bg-base-200 card-lg shadow-sm m-auto">
                         <div className="card-body">
                             <p>
@@ -16,9 +16,9 @@ export default function Pricing() {
                 <div className="divider w-[50%] mx-auto"></div>
                  <article className='m-auto px-10 m-w-full group py-10'>
                     <div className='flex flex-row justify-center items-center gap-6 mb-8'>
-                        <label className='flex-1 text-2xl  text-right'>Day Pass</label>
-                        <input type="checkbox" defaultChecked className="toggle toggle-neutral" aria-label='Attendance duration toggle' />
-                        <label className='flex-1 text-2xl text-left'>Full-Event</label>
+                        <label className='flex-1 text-2xl  text-right  text-shadow-[0_0_1px_black]'>Day Pass</label>
+                        <input type="checkbox" defaultChecked className="toggle toggle-neutral drop-shadow-[0_0_1px_black]" aria-label='Attendance duration toggle' />
+                        <label className='flex-1 text-2xl text-left  text-shadow-[0_0_1px_black]'>Full-Event</label>
                     </div>
                     <div className='grid grid-cols-1 auto-rows-auto lg:grid-cols-3 lg:grid-rows-1 lg:auto-rows-auto justify-center gap-6 m-auto max-w-100 lg:max-w-300 text-neutral-content'>
                         <div className="card bg-accent shadow-lg rounded-xl overflow-hidden scale-100 hover:scale-110 transition-transform duration-250">
@@ -132,7 +132,7 @@ export default function Pricing() {
                 <div className="divider w-[50%] mx-auto"></div>
                 <article className='py-10 w-[90vw] md:w-[70vw] max-w-205 m-auto'>
                     <div className='prose prose-lg mx-auto my-8 '>
-                        <h2>Hotel and Accommodation</h2></div>
+                        <h2 className='text-shadow-[0_0_2px_black]'>Hotel and Accommodation</h2></div>
                     <div className="card bg-base-200 card-lg shadow-sm lg:card-side m-auto">
 
                         <div className="card-body shrink">

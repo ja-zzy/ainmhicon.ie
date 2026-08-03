@@ -6,7 +6,7 @@ export default function DealersDen() {
     return (
         <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]">Dealer's Den 2027 Information</h1>
+                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em] text-shadow-[0_0_3px_black]">Dealer's Den 2027 Information</h1>
             </div>
             <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body">
@@ -42,10 +42,9 @@ export default function DealersDen() {
                     <p>This year’s deadline will be at <b>18:00 GMT+1</b> on <b>23rd of August 2027.</b></p>
                     <p>We will be letting dealers know before <b>23:59 GMT+1</b> on <b>28th August 2027.</b></p>
 
-
+                    <p>You may only apply to deal on a single day.</p>
                     <p>Applying for a table does not guarantee you a table.</p>
                     <p>If you cancel your table, it will be offered to the next person on our waiting list. Tables cannot be bought or sold after being issued by the convention.</p>
-                    <p>If your preferred trading date is unavailable, we will offer you an alternative date or the option to go on the waiting list.</p>
                     <p>Please email <a href='mailto:dealers@ainmhicon.ie'>dealers@ainmhicon.ie</a> for details.</p>
 
                     <h2>Pricing</h2>

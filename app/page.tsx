@@ -16,16 +16,12 @@ export default function Home() {
               <div className="divider w-[50%] mx-auto"></div>
               <p>Events schedule coming soon!</p>
               <div className="divider w-[50%] mx-auto"></div>
-              {
-                timeNow >= dealersDenRegOpen ? (
-                  <>
+              <>
                     <p>Dealer's Den Applications are open!</p>
                     <LinkButton href='https://forms.gle/HZwnx7EmVV95HDmYA' className='w-[50%] m-auto'>Apply Now</LinkButton>
                     <p>See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
                   </>
-                ) :
-                  <p>Dealer's Den Applications will open on 3<sup>rd</sup> August 2026! See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
-              }
+        
               <div className="divider w-[50%] mx-auto"></div>
               <p>Ticket sales will begin soon! In order to buy a ticket and provide us your registration info, you will need an account. You can set up your account at <a href='https://reg.ainmhicon.ie'>any time</a></p>
             </div>

@@ -2,7 +2,8 @@ export default function PrivacyPolicy() {
     return (
         <article className="flex flex-col flex-1 items-center prose m-auto [&_p]:mt-1 [&_p]:mb-1">
             <div className="w-full bg-base-100">
-                <h1 className="m-auto py-10 text-center text-5xl sm:text-[2.8em]">Privacy Policy for Ainmhícon</h1>
+                <h1 className="m-auto py-10 pb-0 md:pb-10 text-center text-5xl sm:text-[2.8em] text-shadow-[0_0_3px_black]">
+                    Privacy Policy for Ainmhícon</h1>
             </div>
             <div className="card bg-base-200 card-lg shadow-sm w-[90vw] md:w-[70vw] max-w-275 lg:card-side">
                 <div className="card-body">

@@ -1,8 +1,4 @@
-import LinkButton from "./components/link-button";
-
 export default function Home() {
-  const timeNow = Date.now()
-  const dealersDenRegOpen = 1785776400000 // 6pm August 3rd 2026
   return (
     <div className="flex flex-col flex-1 items-center">
       <img src='/roots.webp' alt="Ainmhícon" className='w-full h-74 max-h-[40vh] object-contain mt-4 md:mt-8' style={{ filter: 'drop-shadow(0px 0px 10px rgba(0,0,0, 0.4))' }} />
@@ -16,12 +12,10 @@ export default function Home() {
               <div className="divider w-[50%] mx-auto"></div>
               <p>Events schedule coming soon!</p>
               <div className="divider w-[50%] mx-auto"></div>
-              <>
-                    <p>Dealer's Den Applications are open!</p>
-                    <LinkButton href='https://forms.gle/HZwnx7EmVV95HDmYA' className='w-[50%] m-auto'>Apply Now</LinkButton>
-                    <p>See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
-                  </>
-        
+
+              <p>Dealer's Den Applications are now closed!</p>
+              <p>See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
+
               <div className="divider w-[50%] mx-auto"></div>
               <p>Ticket sales will begin soon! In order to buy a ticket and provide us your registration info, you will need an account. You can set up your account at <a href='https://reg.ainmhicon.ie'>any time</a></p>
             </div>

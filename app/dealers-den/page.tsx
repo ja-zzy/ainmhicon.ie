@@ -28,7 +28,7 @@ export default function DealersDen() {
 
                     <h2 id='applications'>How do I apply to be a dealer?</h2>
 
-                            <LinkButton href='https://forms.gle/HZwnx7EmVV95HDmYA' className='w-[50%] m-auto mb-3 sm:mt-5 sm:mb-8'>Apply Here</LinkButton>
+                    <h3 className="text-center">Dealers Den Applications are Now Closed.</h3>
                         
                     <p>This year we are opening Dealers' Den applications before general convention tickets can be purchased, and you will be notified before payment is required if you are successful in your Den application. </p>
 

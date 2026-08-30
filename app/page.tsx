@@ -1,4 +1,4 @@
-import LinkButton from "components/link-button";
+import { LinkButton } from "./components/link-button";
 
 export default function Home() {
   return (
@@ -12,9 +12,9 @@ export default function Home() {
               <h2>2<sup>nd</sup> - 4<sup>th</sup> April 2027</h2>
               <p>Ainmhícon is thrilled to welcome you back to for it's second year in Clayton Hotel Liffey Valley. Join us as we lay down our roots and celebrate nature and our wonderful community!</p>
               <div className="divider w-[50%] mx-auto"></div>
-              <p>Events schedule coming soon!</p>
-              <div className="divider w-[50%] mx-auto"></div>
               <LinkButton href='https://reg.ainmhicon.ie' className='w-[50%] m-auto mb-3 sm:mt-5 sm:mb-8'>Tickets On Sale Now!</LinkButton>
+              <div className="divider w-[50%] mx-auto"></div>
+              <p>Events schedule coming soon!</p>
 
               <div className="divider w-[50%] mx-auto"></div>
               <p>Dealer's Den Applications are now closed!</p>

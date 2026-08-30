@@ -12,12 +12,14 @@ export default function Home() {
               <div className="divider w-[50%] mx-auto"></div>
               <p>Events schedule coming soon!</p>
               <div className="divider w-[50%] mx-auto"></div>
+              <LinkButton href='https://reg.ainmhicon.ie' className='w-[50%] m-auto mb-3 sm:mt-5 sm:mb-8'>Tickets On Sale Now!</LinkButton>
 
+              <div className="divider w-[50%] mx-auto"></div>
               <p>Dealer's Den Applications are now closed!</p>
               <p>See the <a href='/dealers-den#applications'>Dealer's Den</a> page for more info.</p>
 
               <div className="divider w-[50%] mx-auto"></div>
-              <p>Ticket sales will begin soon! In order to buy a ticket and provide us your registration info, you will need an account. You can set up your account at <a href='https://reg.ainmhicon.ie'>any time</a></p>
+              <p>In order to buy a ticket and provide us your registration info, you will need an account. You can set up your account at <a href='https://reg.ainmhicon.ie'>any time</a></p>
             </div>
           </div>
         </article>

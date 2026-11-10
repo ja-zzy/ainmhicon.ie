@@ -34,8 +34,8 @@ export default function DealersDen() {
 
                    
                     {timeNow < dealersDenRegOpen && <p>Dealers' Den applications open at <b>18:00 GMT+1</b> (London, Dublin) on <b>3rd of August 2027</b>.</p>}
-                    <p>This year’s deadline will be at <b>18:00 GMT+1</b> on <b>23rd of August 2027.</b></p>
-                    <p>We will be letting dealers know before <b>23:59 GMT+1</b> on <b>28th August 2027.</b></p>
+                    <p>This year’s deadline will be at <b>18:00 GMT+1</b> on <b>23rd of August 2026.</b></p>
+                    <p>We will be letting dealers know before <b>23:59 GMT+1</b> on <b>28th August 2026.</b></p>
 
                     <p>You may only apply to deal on a single day.</p>
                     <p>Applying for a table does not guarantee you a table.</p>
